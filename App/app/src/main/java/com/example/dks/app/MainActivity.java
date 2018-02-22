@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mDrawerLayout=findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
         );
 
 
-        BottomNavigationView navigation = findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        //load home fragment when no fragment is on screen
-        if (savedInstanceState == null) {
-
-            loadHomeFragment();
-        }
+//        BottomNavigationView navigation = findViewById(R.id.navigation);
+//        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+//        //load home fragment when no fragment is on screen
+//        if (savedInstanceState == null) {
+//
+//            loadHomeFragment();
+//        }
 
     }
 
