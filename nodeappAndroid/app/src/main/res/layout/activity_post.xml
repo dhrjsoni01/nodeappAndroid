@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankita.nodeappandroid.PostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#404040"
+            android:paddingTop="10dp"
+            android:text="Post Service"
+            android:textAlignment="center"
+            android:textColor="#c0c0c0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:hint="   Name"
+                android:backgroundTint="#909090"
+               android:drawableLeft="@drawable/name"
+                android:paddingLeft="10dp"
+                android:textColorHint="#101010" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="   Phone"
+                android:backgroundTint="#909090"
+                android:drawableLeft="@drawable/phone1"
+                android:paddingLeft="10dp"
+                android:textColorHint="#101010" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="   Email"
+                android:backgroundTint="#909090"
+                android:drawableLeft="@drawable/email1"
+                android:paddingLeft="10dp"
+                android:textColorHint="#101010" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="   Address`"
+                android:backgroundTint="#909090"
+                android:drawableLeft="@drawable/address"
+                android:paddingLeft="10dp"
+                android:textColorHint="#101010" />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="10dp"
+                android:textColorHint="#101010" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:hint="Job Title"
+                android:paddingLeft="20dp"
+                android:background="@drawable/border"
+                android:textColorHint="#404040" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Post "
+            android:background="@drawable/button"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

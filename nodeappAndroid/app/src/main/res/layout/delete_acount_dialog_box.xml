@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/delete_dialog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure?
+        wanna delete account?"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/delete_dialog_text"
+        android:gravity="center">
+        <Button
+            android:id="@+id/delete_dialog_yes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+
+            />
+        <Button
+            android:id="@+id/delete_dialog_no_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_marginLeft="10dp"
+            android:text="NO"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
