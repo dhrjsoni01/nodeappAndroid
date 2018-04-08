@@ -1,4 +1,4 @@
-package com.example.ankita.nodeappandroid;
+package com.dks.minor.nodeappandroid;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ankita.nodeappandroid", appContext.getPackageName());
+        assertEquals("com.dks.minor.nodeappandroid", appContext.getPackageName());
     }
 }

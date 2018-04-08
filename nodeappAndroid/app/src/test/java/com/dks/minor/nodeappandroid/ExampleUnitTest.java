@@ -1,4 +1,4 @@
-package com.example.ankita.nodeappandroid;
+package com.dks.minor.nodeappandroid;
 
 import org.junit.Test;
 
