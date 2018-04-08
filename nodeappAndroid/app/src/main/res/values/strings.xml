@@ -1,4 +1,7 @@
 <resources>
+
+    <string name="parse_server_url">http://ec2-13-232-10-234.ap-south-1.compute.amazonaws.com:1337/parse/</string>
+    <string name="parse_app_id">minorprojectbydks</string>
     <string name="app_name">Worker Connect</string>
     <string name="hello_world">Hello world!</string>
 
@@ -6,7 +9,12 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_setting">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_aboutus">About Us</string>
+
+
     <string name="email">Email Id</string>
     <string name="passowrd">Password</string>
     <string name="login">LOGIN</string>
